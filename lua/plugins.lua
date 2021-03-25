@@ -13,6 +13,14 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
   -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
+  use { 'wbthomason/packer.nvim', opt = true }
   
+  -- LSP
+  use 'neovim/nvim-lspconfig'
+
+  -- Autocomplete
+  use 'hrsh7th/nvim-compe'
+  use 'hrsh7th/vim-vsnip'
+  --use 'jmsv/vscode-javascript-standard'
+  --use 'dsznajder/vscode-es7-javascript-react-snippets'
 end)
