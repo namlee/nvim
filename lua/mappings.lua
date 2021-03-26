@@ -1,6 +1,10 @@
 vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', { noremap = true, silent = true})
 vim.g.mapleader = ' '
 
+-- The only thing until now I hate abt Vim
+-- fucking Esc
+vim.api.nvim_set_keymap('i', '[q', '<ESC>', {noremap = true, silent = true})
+
 -- Toggle hlsearch
 vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', { noremap = true, silent = true })
 
