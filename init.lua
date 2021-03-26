@@ -6,5 +6,6 @@ require('nv-compe')
 require('nv-lspkind')
 require('nv-lightbulb')
 require('nv-telescope')
+require('nv-onebuddy')
 
 vim.cmd('source ~/.config/nvim/vimscript/functions.vim')

@@ -33,4 +33,8 @@ return require('packer').startup(function()
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
   use 'nvim-telescope/telescope-media-files.nvim'
+
+  -- Color
+  use 'tjdevries/colorbuddy.vim'
+  use 'Th3Whit3Wolf/onebuddy'
 end)
