@@ -18,10 +18,29 @@ return require('packer').startup(function()
   -- LSP
   use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'
+  use 'onsails/lspkind-nvim'
+  use 'kosayoda/nvim-lightbulb'
 
   -- Autocomplete
   use 'hrsh7th/nvim-compe'
   use 'hrsh7th/vim-vsnip'
   --use 'jmsv/vscode-javascript-standard'
   --use 'dsznajder/vscode-es7-javascript-react-snippets'
+
+  -- Treesitter
+  --use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+
+  -- Telescope
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
+  use 'nvim-telescope/telescope-media-files.nvim'
+
+  -- General Plugins
+  use 'liuchengxu/vim-which-key'
+
+  -- Color
+  use 'tjdevries/colorbuddy.vim'
+  use 'Th3Whit3Wolf/onebuddy'
 end)

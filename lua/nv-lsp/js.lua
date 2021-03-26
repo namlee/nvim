@@ -1,4 +1,4 @@
-on_attach = require('nvim-lsp/cfg')
+on_attach = require('nv-lsp/cfg')
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
