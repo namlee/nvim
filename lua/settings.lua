@@ -1,0 +1,9 @@
+vim.wo.signcolumn = "yes" -- Always show the signcolumn, otherwise it would shift the text each time
+vim.o.timeoutlen = 100 -- By default timeoutlen is 1000 ms
+vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
+vim.o.mouse = "a" -- Enable your mouse
+vim.o.splitbelow = true -- Horizontal splits will automatically be below
+--vim.o.termguicolors = true -- set term giu colors most terminals support this
+vim.o.splitright = true -- Vertical splits will automatically be to the right
+vim.o.t_Co = "256" -- Support 256 colors
+vim.o.conceallevel = 0 -- So that I can see `` in markdown files

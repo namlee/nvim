@@ -34,9 +34,12 @@ vim.api.nvim_set_keymap('i', '<C-k>', '<ESC>:m .-2<CR>==gi', { noremap = true, s
 vim.api.nvim_set_keymap('v', '<C-j>', ':m \'>+1<CR>gv=gv', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<C-k>', ':m \'<-2<CR>gv=gv', { noremap = true, silent = true })
 
-
 -- Resize window
 vim.api.nvim_set_keymap('n', '<C-Up>',    ':resize -2<CR>', { noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-Down>',  ':resize +2<CR>', { noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-Left>',  ':vertical resize -2<CR>', { noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-Right>', ':vertical resize +2<CR>', { noremap = true, silent = true})
+
+-- Quick force quit
+vim.api.nvim_set_keymap('n', '<C-q>', ':qa!<CR>', { noremap = true, silent = true})
+vim.api.nvim_set_keymap('i', '<C-q>', '<ESC>:qa!<CR>', { noremap = true, silent = true})
