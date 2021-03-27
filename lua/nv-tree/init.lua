@@ -1,5 +1,5 @@
 -- Mappings
-vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>x', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 -- This config makes NvimTree slow
 -- vim.api.nvim_set_keymap('n', '<leader>er', ':NvimTreeRefresh<CR>>', {noremap = true, silent = true})
 

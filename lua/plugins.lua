@@ -19,6 +19,9 @@ return require('packer').startup(function()
   use 'kabouzeid/nvim-lspinstall'
   use 'neovim/nvim-lspconfig'
 
+  -- Autocomplete
+  use 'hrsh7th/nvim-compe'
+
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
 end)

@@ -7,3 +7,4 @@ require('settings')
 -- Plugins
 require('nv-tree')
 require('nv-lsp')
+require('nv-compe')
