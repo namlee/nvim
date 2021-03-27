@@ -18,6 +18,7 @@ return require('packer').startup(function()
   -- Lsp
   use 'kabouzeid/nvim-lspinstall'
   use 'neovim/nvim-lspconfig'
+  use 'glepnir/lspsaga.nvim'
 
   -- Autocomplete
   use 'hrsh7th/nvim-compe'
