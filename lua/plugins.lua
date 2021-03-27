@@ -15,6 +15,10 @@ return require('packer').startup(function()
 	-- Packer can manage itself
 	use { 'wbthomason/packer.nvim', opt = true }
 
+  -- Lsp
+  use 'kabouzeid/nvim-lspinstall'
+  use 'neovim/nvim-lspconfig'
+
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
 end)
