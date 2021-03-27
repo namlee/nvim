@@ -15,4 +15,6 @@ return require('packer').startup(function()
 	-- Packer can manage itself
 	use { 'wbthomason/packer.nvim', opt = true }
 
+	-- Explorer
+  use 'kyazdani42/nvim-tree.lua'
 end)
