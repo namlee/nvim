@@ -3,6 +3,7 @@ vim.api.nvim_command('autocmd BufWritePost plugins.lua PackerCompile')
 require('plugins')
 require('mappings')
 require('settings')
+require('colorscheme')
 
 -- Plugins
 require('nv-tree')

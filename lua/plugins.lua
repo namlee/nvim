@@ -40,6 +40,9 @@ return require('packer').startup(function()
   -- TODO: fork this plugin and rewrite in lua
   use 'tpope/vim-commentary' -- use conjunction with nvim-ts-context-commentstring
 
+  -- Color
+  use 'sainnhe/sonokai'
+
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
 
