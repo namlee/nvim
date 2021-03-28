@@ -44,6 +44,9 @@ return require('packer').startup(function()
   use 'sainnhe/sonokai'
   use 'norcalli/nvim-colorizer.lua'
 
+  -- Status Line and Bufferline
+  use 'glepnir/galaxyline.nvim'
+
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
 
