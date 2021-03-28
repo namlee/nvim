@@ -31,6 +31,15 @@ return require('packer').startup(function()
   }
   use 'nvim-telescope/telescope-media-files.nvim'
 
+  -- Treesitter
+  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+  use 'nvim-treesitter/nvim-treesitter-refactor'
+  use 'p00f/nvim-ts-rainbow'  
+  use {'lukas-reineke/indent-blankline.nvim', branch = 'lua'}
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
+  -- TODO: fork this plugin and rewrite in lua
+  use 'tpope/vim-commentary' -- use conjunction with nvim-ts-context-commentstring
+
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
 
