@@ -42,6 +42,7 @@ return require('packer').startup(function()
 
   -- Color
   use 'sainnhe/sonokai'
+  use 'norcalli/nvim-colorizer.lua'
 
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
