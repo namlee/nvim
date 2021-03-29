@@ -23,6 +23,8 @@ return require('packer').startup(function()
 
   -- Autocomplete
   use 'hrsh7th/nvim-compe'
+  use "rafamadriz/friendly-snippets"
+  use "hrsh7th/vim-vsnip" -- TODO: do we need vim-vsnip-integ?
 
   -- Telescope
   use {
