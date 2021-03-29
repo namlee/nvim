@@ -39,8 +39,6 @@ return require('packer').startup(function()
   use 'p00f/nvim-ts-rainbow'  
   use {'lukas-reineke/indent-blankline.nvim', branch = 'lua'}
   use 'JoosepAlviste/nvim-ts-context-commentstring'
-  -- TODO: fork this plugin and rewrite in lua
-  use 'tpope/vim-commentary' -- use conjunction with nvim-ts-context-commentstring
 
   -- Color
   use 'sainnhe/sonokai'
@@ -54,4 +52,7 @@ return require('packer').startup(function()
 
   -- Icons
   use 'kyazdani42/nvim-web-devicons'
+
+  -- Others
+  use 'terrortylor/nvim-comment'
 end)
