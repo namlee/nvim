@@ -1,4 +1,4 @@
-
+require('nv-lsp/settings')
 local tsserver_cfg = require('nv-lsp/lang/js')
 
 local function make_config(server)
