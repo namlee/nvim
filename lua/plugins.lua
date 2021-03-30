@@ -56,4 +56,5 @@ return require('packer').startup(function()
 
   -- Others
   use 'terrortylor/nvim-comment'
+  use 'windwp/nvim-autopairs'
 end)
