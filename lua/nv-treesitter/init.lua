@@ -4,7 +4,7 @@ require'nvim-treesitter.configs'.setup {
     enable = true -- false will disable the whole extension
   },
   indent = {enable = true},
-  -- autotag = {enable = true},
+  autotag = {enable = true},
   rainbow = {enable = true},
   context_commentstring = {
     enable = true,
@@ -13,10 +13,6 @@ require'nvim-treesitter.configs'.setup {
         style_element = '{/*%s*/}'
       }
     }
-  },
-  refactor = {
-    highlight_definitions = { enable = true },
-    highlight_current_scope = { enable = true },
   },
 }
 

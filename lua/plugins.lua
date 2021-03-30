@@ -35,10 +35,10 @@ return require('packer').startup(function()
 
   -- Treesitter
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
-  use 'nvim-treesitter/nvim-treesitter-refactor'
   use 'p00f/nvim-ts-rainbow'  
   use {'lukas-reineke/indent-blankline.nvim', branch = 'lua'}
   use 'JoosepAlviste/nvim-ts-context-commentstring'
+  use 'windwp/nvim-ts-autotag'
 
   -- Color
   use 'sainnhe/sonokai'
