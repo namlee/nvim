@@ -1,9 +1,14 @@
 require('nv-lsp/settings')
 local tsserver_cfg = require('nv-lsp/lang/js')
+local rs_cfg = require('nv-lsp/lang/rs')
 
 local function make_config(server)
   if server == "typescript" then
     return tsserver_cfg
+  end
+
+  if server == "rust" then
+    return rs_cfg
   end
 end
 
