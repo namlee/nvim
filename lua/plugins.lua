@@ -46,6 +46,7 @@ return require('packer').startup(function()
 
   -- Status Line and Bufferline
   use 'glepnir/galaxyline.nvim'
+  use 'romgrk/barbar.nvim'
 
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
