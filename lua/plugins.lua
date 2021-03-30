@@ -48,6 +48,9 @@ return require('packer').startup(function()
   use 'glepnir/galaxyline.nvim'
   use 'romgrk/barbar.nvim'
 
+  -- Navigation
+  use 'phaazon/hop.nvim'
+
 	-- Explorer
   use 'kyazdani42/nvim-tree.lua'
 
